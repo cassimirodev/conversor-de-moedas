@@ -39,4 +39,4 @@ build/
 
 .env
 .editorconfig
-.idea
+/.idea/
