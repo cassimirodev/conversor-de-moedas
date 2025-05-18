@@ -1,23 +1,13 @@
-import model.CurrencyCodeResponse;
-import model.CurrencyResponse;
-import service.CurrencyCodeService;
-import service.CurrencyService;
+/* package view;
 
 import java.util.List;
-import java.util.Scanner;
+import model.CurrencyCodeResponse
 
-public class Main {
-    public static void main(String[] args)  {
+public class TerminalView {
 
+            public static void OptionsCurrency (String supportedCodes) {
 
-         CurrencyService servicePair = new CurrencyService();
-        CurrencyResponse responsePair;
-        CurrencyCodeService serviceCode = new CurrencyCodeService();
-        CurrencyCodeResponse responseCode = serviceCode.getSupportedCodes();
-
-       //  System.out.println(responseCode.getSupported_codes());
-
-        System.out.print("\n" +
+                  System.out.print("\n" +
                 "  /$$$$$$                                                                                      /$$                /$$      /$$                        /$$                  \n" +
                 " /$$__  $$                                                                                    | $$               | $$$    /$$$                       | $$                  \n" +
                 "| $$  \\__/ /$$$$$$ /$$$$$$$ /$$    /$$/$$$$$$  /$$$$$$  /$$$$$$$ /$$$$$$  /$$$$$$         /$$$$$$$ /$$$$$$       | $$$$  /$$$$ /$$$$$$  /$$$$$$  /$$$$$$$ /$$$$$$  /$$$$$$$\n" +
@@ -30,39 +20,13 @@ public class Main {
                 "                                                                                                                                                                           \n" +
                 "                                                                                                                                                                           \n");
 
-
-
-    }
-
-    public static void  showCurrencyAvaliables() {
         int index = 1;
-        CurrencyCodeService serviceCode = new CurrencyCodeService();
-        CurrencyCodeResponse responseCode = serviceCode.getSupportedCodes();
-
-        for (List<String> code : responseCode.getSupported_codes()) {
+        for (List<String> code : supportedCodes) {
             System.out.printf("%3d - %s (%s)%n", index++, code.get(0), code.get(1));
         }
+
     }
 
-    public static void Options() {
 
 
-        Scanner input = new Scanner(System.in);
-        Boolean optionChooseLoop = true;
-        int optionFeatures;
-
-
-
-        do {
-            System.out.println("1 - Converter moedas ");
-            System.out.println("2 - Listar Moedas Disponíveis para conversão ");
-            System.out.println("1 - Sair");
-
-
-
-
-
-        } while (optionChooseLoop);
-    }
-}
-
+} */
