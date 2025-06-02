@@ -12,7 +12,7 @@ import utils.EnvUtils;
 
 public class CurrencyService {
 
-    public CurrencyResponse ConvertCurrencies(String from, String to, double amount) {
+    public CurrencyResponse pairRequest(String from, String to, double amount) {
 
 
         String API_KEY  = EnvUtils.getApiKey();

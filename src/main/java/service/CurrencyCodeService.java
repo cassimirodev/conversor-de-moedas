@@ -16,8 +16,6 @@ import utils.EnvUtils;
 public class CurrencyCodeService {
 
     public CurrencyCodeResponse getSupportedCodes() {
-
-
         String API_KEY  = EnvUtils.getApiKey();
         String URL_Req_getCodes = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/codes";
 
